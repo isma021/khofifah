@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Elegan</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f8f4f0;
+            color: #2c3e50;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #eae4dc;
+            padding: 40px 0;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        header h1 {
+            font-family: 'Times New Roman', serif;
+            font-size: 3em;
+            color: #3e3a37;
+            margin: 0;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            padding: 40px;
+            max-width: 1300px;
+            margin: auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 4px solid #d9cbb4;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.03);
+        }
+
+        .button-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #bfa98c;
+            color: #fff;
+            font-size: 16px;
+            font-family: 'Georgia', serif;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #a18970;
+        }
+
+        footer {
+            background-color: #eae4dc;
+            text-align: center;
+            padding: 15px;
+            font-style: italic;
+            color: #3e3a37;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Galeri Saya</h1>
+</header>
+
+<section class="gallery">
+    <img src="C:/ipatjkt4/1.jpg" alt="Foto 1">
+    <img src="C:/ipatjkt4/2.jpg" alt="Foto 2">
+    <img src="C:/ipatjkt4/3.jpg" alt="Foto 3">
+    <img src="C:/ipatjkt4/4.jpg" alt="Foto 4">
+    <img src="C:/ipatjkt4/5.jpg" alt="Foto 5">
+    <img src="C:/ipatjkt4/6.jpg" alt="Foto 6">
+    <img src="C:/ipatjkt4/7.jpg" alt="Foto 7">
+    <img src="C:/ipatjkt4/8.jpg" alt="Foto 8">
+    <img src="C:/ipatjkt4/9.png" alt="Foto 9">
+    <img src="C:/ipatjkt4/10.jpg" alt="Foto 10">
+    <img src="C:/ipatjkt4/11.jpg" alt="Foto 11">
+    <img src="C:/ipatjkt4/12.jpg" alt="Foto 12">
+    <img src="C:/ipatjkt4/13.jpg" alt="Foto 13">
+    <img src="C:/ipatjkt4/20.jpg" alt="Foto 14">
+    <img src="C:/ipatjkt4/21.jpg" alt="Foto 15">
+    <img src="C:/ipatjkt4/15.jpg" alt="Foto 16">
+</section>
+
+<div class="button-container">
+    <a href="file:///C:/ipatjkt4/halamanutama.html" class="back-button">← Kembali ke Halaman Utama</a>
+</div>
+
+<footer>
+    &copy; “Setiap gambar adalah puisi yang tak bersuara — tersimpan dalam bingkai waktu.”
+</footer>
+
+</body>
+</html>
